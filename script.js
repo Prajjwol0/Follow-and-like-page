@@ -69,8 +69,11 @@ button.addEventListener("click", function () {
 // to again hide the heartpop after liking the photo using setTimeout 
 function pop(){
     heartpop.style.visibility = ("visible");
+    if (like.src.includes("transparentHeart.png")) {
+        like.src = "redHeart.png";}
     setTimeout(function(){
     heartpop.style.visibility = ("hidden");
+
     },1000)
 
 }
