@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: fixed;
+    background-color: #e3e3f7;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+   }
+.card{
+background-color:#49b1e6;
+height: 450px;
+width: 400px;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+position: absolute;
+}
+#ronaldo {
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 30px;
+}
+h1{
+margin-top: 225px;
+}
+h5{
+    color: rgb(204, 2, 2);
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    padding: 10px;
+    transition: .3s;
+}
+button{
+    background-color:#0866ff;
+    border: none;
+    width: 60px;
+    height: 40px;
+    /* display: flex;
+    justify-content: center; */
+margin-left: 99px;
+color: white;
+border-radius: 5px;
+transition: 0.3s;
+}
+button:hover{
+    background-color:#3683ff;
+}
+button:active{
+    transform: scale(0.98,0.98);
+}
+
+#heart1{
+    height: 24px;
+    margin-top: 8px;
+}
+#heartpop{
+    height: 100px;
+    margin-right: 30px;
+    position: absolute;
+    top: 54px;
+    left: 142px;
+    opacity: .8;
+    visibility: hidden;
+}
